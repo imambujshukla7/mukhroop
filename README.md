@@ -1,19 +1,35 @@
-# mukhroop
-Mukhroop leverages traditional techniques, primarily relying on OpenCV, a powerful library for image and video processing. 
-OpenCV provides pre-built functions for face detection, facial feature extraction, and image manipulation. NumPy is used for efficient data handling as well
+# Mukhroop
 
-1. Install dependencies: pip install -r requirements.txt
+Mukhroop is a face detection model in Python utilizing OpenCV's Haar Cascade classifier
 
-2. Run the script: python mukhroop.py
+## Quick Start
 
-3. View results: The result image with detected faces will be saved as output.jpg in the project directory
+```bash
+# Clone the Repository
+git clone https://github.com/imambujshukla7/mukhroop.git
+cd mukhroop
 
-Notes: Mukhroop uses the Haar Cascade classifier for face detection. Future scope : Exploring deep learning-based approaches.
+# Install Dependencies
+pip install -r requirements.txt
 
-### Instructions:
+# Run Mukhroop
+python mukhroop.py
 
-1. Copy and paste the code into respective files as mentioned above.
-2. Install dependencies by running `pip install -r requirements.txt`.
-3. Run the script using `python mukhroop.py`.
+## Mukhroop Structure
 
-Mukhroop utilizes face detection system using OpenCV's Haar Cascade classifier
+mukhroop/
+|-- mukhroop.py
+|-- requirements.txt
+|-- images/
+|   |-- test_image.jpg
+|-- README.md
+
+
+## Notes
+
+- Mukhroop relies on OpenCV's Haar Cascade classifier for face detection.
+- Future scope : Exploring deep learning-based approaches.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
