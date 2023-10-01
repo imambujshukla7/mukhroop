@@ -27,7 +27,7 @@ mukhroop/
 
 ## Notes
 
-- Mukhroop relies on OpenCV's Haar Cascade classifier for face detection.
+- Mukhroop relies on OpenCV Haar Cascade classifier for face detection.
 - Future scope : Exploring deep learning-based approaches.
 
 ## License
